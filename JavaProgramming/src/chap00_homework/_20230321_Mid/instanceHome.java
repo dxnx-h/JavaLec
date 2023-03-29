@@ -1,0 +1,23 @@
+package chap00_homework._20230321_Mid;
+
+import chap00_homework._20230321_Mid.clazz.homeCalculator;
+
+public class instanceHome {
+
+	class maninCalc {
+		public void main(String[] args) {
+			homeCalculator hc = new homeCalculator();
+
+			homeCalculator.homeAdd homeadd = hc.new homeAdd();
+
+			homeadd.setA(3);
+			homeadd.setB(4);
+			
+			homeadd.setResult(homeadd.getA() + homeadd.getB());
+			System.out.println(homeadd.getResult());
+
+		}
+		
+		
+	}
+}

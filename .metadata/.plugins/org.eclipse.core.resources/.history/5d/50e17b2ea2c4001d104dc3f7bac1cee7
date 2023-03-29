@@ -1,0 +1,19 @@
+package chap00_homework._20230314;
+
+public class _20230314_middle_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Q1) 삼항 조건 연산자를 이용하여 int age = 29; 일 경우
+    20대입니다. 를 출력하고 age가 30이상일 경우 
+    20대가 아닙니다.를 출력하세요.
+		 * 
+		 */
+		int age = 29;
+		
+		var result = (age <= 30) ? "20대입니다" : "20대가 아닙니다";
+			
+			System.out.println(result);
+	}
+
+}

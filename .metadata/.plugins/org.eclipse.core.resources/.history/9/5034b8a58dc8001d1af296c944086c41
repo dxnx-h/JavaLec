@@ -1,0 +1,43 @@
+package chap15_usefulClass;
+
+public class test_answer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//비트, 네이버, 클라우드 찾아서 제거
+		String str = "가비트나네이버다라마바클라우드";
+		
+		
+		
+		System.out.println("------------------");
+		
+		
+		
+		String bstr = "비트";
+		String nstr = "네이버";
+		String cstr = "클라우드";
+		
+		
+		System.out.println("------------------");
+		System.out.println(bstr.length()); //2
+		System.out.println(nstr.length()); //3
+		System.out.println(cstr.length());//4
+		
+		int bindex = str.indexOf("비트"); //1
+		int nindex = str.indexOf("네이버"); //4
+		int cindex = str.indexOf("클라우드"); //11
+		
+		System.out.println("------------------");
+		System.out.println(str.indexOf("비트"));
+		System.out.println(str.indexOf("네이버"));
+		System.out.println(str.indexOf("클라우드"));
+		
+		System.out.println("------------------");
+		System.out.println(str.substring(0, str.indexOf("비트"))); //1부터 뒤에서 2번째까지
+		System.out.println(str.substring((str.indexOf("비트")+bstr.length()), str.indexOf("네이버")));
+		System.out.println(str.substring((str.indexOf("네이버")+nstr.length()), str.indexOf("클라우드")));
+	}
+
+
+}

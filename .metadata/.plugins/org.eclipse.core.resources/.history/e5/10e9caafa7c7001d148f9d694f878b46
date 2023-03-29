@@ -1,0 +1,8 @@
+package chap11_interface.device;
+
+public interface TV {
+	void displayShow(int min);
+	int speakerSound(int volum);
+	int changeChannel(int channel);
+
+}

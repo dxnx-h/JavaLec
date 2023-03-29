@@ -1,0 +1,20 @@
+package chap00_homework._20230315;
+
+public class _20230315_middle_04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 가위, 바위, 보 게임을 만드세요.
+		com에 0~2까지의 랜덤값을 발생시키고
+		(0:가위, 1:바위, 2:보)
+		사용자가 가위, 바위, 보를 입력하여 com과의 승무패를 출력하세요.
+			(예시) com = 2, 사용자가 바위를 입력하면 => 졌습니다.
+				  com=1, 사용자가 바위를 입력하면 => 비겼습니다.
+				  com=0, 사용자가 바위를 입력하면 => 이겼습니다.
+		 */
+
+	}
+
+}

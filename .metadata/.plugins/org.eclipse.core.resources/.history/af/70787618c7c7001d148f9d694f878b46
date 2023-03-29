@@ -1,0 +1,29 @@
+package chap00_homework._20230321.Basic;
+
+public class HybridCar3 implements ElectronicCar2, FuelCar2 {
+
+	@Override
+	public void speedUp() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void speedDown() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void addFuel() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void charge() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

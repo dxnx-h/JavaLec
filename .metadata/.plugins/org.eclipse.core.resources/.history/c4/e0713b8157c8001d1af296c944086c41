@@ -1,0 +1,5 @@
+package chap13.objectarry.clazz2;
+
+public class Mathmetics implements ILecture1 {
+
+}

@@ -1,0 +1,21 @@
+
+public class 지뢰찾기 {
+
+	public int solution(int[][] board) {
+	        int answer = 0;
+	        return answer;
+	        
+	        int[] bombArr = new int[];
+	        int dangerousCnt = 0;
+	        int safeCnt = 0;
+	        
+	        for(int i = 1; i <= 100; i++) {
+	            
+	        }
+	        
+	        
+	    }
+	}
+	}
+
+}

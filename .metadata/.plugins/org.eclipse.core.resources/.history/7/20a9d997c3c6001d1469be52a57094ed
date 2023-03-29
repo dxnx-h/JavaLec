@@ -1,0 +1,21 @@
+package chap07_inherit.animal;
+
+public class Whale extends Animal {
+	//고래만의 특성이 뭐가 있을까? 어느 바다에 사는지. 숨을 얼마나 참는지
+	//Sea, Breath
+	
+	public String sea;
+	public int breath;
+	
+	public Whale(String sea, int breath) {
+		
+		this.sea = sea;
+		this.breath = breath; 
+	
+		super(age, size, legCnt, hasWing);
+	}
+	
+	
+	
+
+}

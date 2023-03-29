@@ -1,0 +1,32 @@
+package chap10_abstraction.academy;
+
+	public class englishAcademy extends nowAcademy {
+		public int teacher = 30;
+		public englishAcademy(int group, int student, int teacher) {
+			super(group, student, teacher);
+			// TODO Auto-generated constructor stub
+		}
+
+		public void teach() {
+			
+			System.out.println(super.teacher + "명이" 
+							+ group +"개 반을 가르친다.");
+		}
+
+		public void homework() {
+			System.out.println(student + "명이 숙제를 한다");
+		}
+
+		public void rest() {
+			System.out.println("english Academy는 쉰다");
+		}
+
+	
+		public void attendance(int subject) {
+			System.out.println(subject + "개는 휴강한다");
+			
+			super.lastSubject= subject;
+			
+		}
+
+}

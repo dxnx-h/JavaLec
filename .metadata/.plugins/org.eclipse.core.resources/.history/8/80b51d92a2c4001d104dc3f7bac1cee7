@@ -1,0 +1,10 @@
+package chap00_homework._20230316;
+
+public class _20230316_basic_04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* Q4. 정수 10개를 입력받아 배열에 저장하고, 이 정수중에서 2의 배수와 3의 배수를 출력하세요 		 */
+	}
+
+}

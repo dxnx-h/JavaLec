@@ -1,0 +1,32 @@
+package chap15_usefulClass;
+
+import java.util.Calendar;
+
+public class _18_calendar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calendar today = Calendar.getInstance();
+		
+		//hour는 오전 오후 구분 없이 0~11까지만 표현
+		System.out.println("현재 시간은" + today.HOUR + ":" + today.MINUTE + ":" + today.SECOND);
+		
+		//hour_of_day 0~23으로 시간을 표시
+		System.out.println("현재 시간은" + today.HOUR_OF_DAY + ":" + today.MINUTE + ":" + today.SECOND);
+		
+		//오전오후 표시. 오전은 0, 오후는 1 AM_PM
+		System.out.println(today.AM_PM);
+		
+		
+		
+		System.out.println("올해 년도는 " + today.YEAR);
+		//월은 0부터 시작. 0~11, 0은 1월 11은 12월
+		System.out.println("현재 월은 " + today.MONTH);
+		System.out.println("올해의 몇쨰주 " + today.WEEK_OF_YEAR);
+		System.out.println("이번 달의 몇째주 " + today.WEEK_OF_MONTH);
+		
+		//요일은 1부터 시작. 1~7 1: 일요일, 7: 토요일
+		System.out.println("무슨 요일: " + today.DAY_OF_WEEK);
+	}
+
+}

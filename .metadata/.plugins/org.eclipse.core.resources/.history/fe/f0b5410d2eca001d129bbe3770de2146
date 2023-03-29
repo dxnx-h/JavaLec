@@ -1,0 +1,40 @@
+package chap00_homework._20230324._Middle;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
+
+public class _1st {
+/*
+ 사용자가 입력한 날짜(yyyy-MM-dd 형식으로 입력받음)에 add 메소드로 3일뒤로 변경하고
+     yyyy-MM-dd 형식으로 출력하세요. (SimpleDateFormat 클래스 사용. SimpleDateFormat의
+     parse() 메소드를 이용하면 String -> Calendar로 변환가능)
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("년월일을 입력하세요. ");
+		System.out.println("입력예시: 2022년 12월 1일 = 20221201");
+		//3가지를 입력받아야 해
+		int oneday = sc.nextInt(6); 
+		
+		System.out.println(oneday);
+		
+		
+		//입력한 숫자로 날짜를 세팅
+		Calendar cal = Calendar.getInstance();
+		
+		//add 메소드를 이용하여 3일 뒤로 변경
+		cal.add(Calendar.DATE, 3);
+		
+		//Calendar를 Date타입으로 변환
+		Date d = new Date(cal.getTimeInMillis());
+		
+		//yyyy-MM-dd HH:mm:ss 형식으로 변환
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"); 
+	
+		System.out.println(sdf.format(d));
+	}
+
+}

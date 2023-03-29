@@ -1,0 +1,45 @@
+package chap07_inherit.animal;
+
+public class Tiger extends Animal { //Animal을 상속해따
+	//호랑이만의 특성 간단하게 생각해보기
+	//public String meat; 양고기, 소고기 등
+	//public boolean swimming; 수영하고 있는지(물을 좋아하니까!)
+	//public boolean hasPattertn;  <- 무늬가 있는지 없는지라 불린을 쓰는건가?
+	//public String color;
+	
+	//public eat() {    오버라이드 된 함수 적기
+	//    syso(meat + "를 먹는다.");
+    // }
+	
+	//public void swim() {
+	//	if(swimming)
+	//		syso("현재 수영중입니다.;
+	// } else { 
+	//		syso("현재 사냥중입니다.")
+	//}
+	
+	//public void printPattern() {
+	//	if(hasPattern)
+	//		syso("이 호랑이는 무늬를 가지고 있습니다.";
+	//} else {
+	//		syso("이 호랑이는 무늬를 가지고 있지 않습니다.")
+	// }
+	
+	public String meat;
+	public boolean isSwimming;  //수영을 하는지 아닌지 두가지 경우라 불린을 쓰나봐?
+	public boolean hasPattern;
+	public String color;
+	
+	public Tiger() {
+		
+	}
+	
+	public Tiger(String mear, boolean isSwimming, boolean hasPattern, String color, 
+				int ate, int size) {
+				
+		this.meat = meat;
+		this.isSwimming = isSwimming;
+		this.hasPattern = hasPattern;
+		this.color = color;
+	}
+}

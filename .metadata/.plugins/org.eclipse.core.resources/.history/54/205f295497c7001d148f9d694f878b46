@@ -1,0 +1,6 @@
+package chap11_interface;
+
+//d일부만 구현항려면 추상클래스로 선언한다.
+public abstract class HighBuilding  implements Building {
+
+}

@@ -1,0 +1,23 @@
+package chap00_homework._20230321_Mid;
+
+
+class homeCal { 
+	private int a;
+	private int b;
+	private int result;
+	
+	static class Add { 
+		s
+		
+	}
+}
+
+public class instanceHome2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+	}
+
+}

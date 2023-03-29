@@ -1,0 +1,31 @@
+package chap00_homework._20230316;
+
+public class _20230316_middle_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* Q2. 클래스 PhoneInfo
+   		String[] name = new String[100];
+   		String[] phoneNum = new String[100];
+
+   		int i = 0;
+
+   		public void insertPhoneInfo(String name, String number) {
+			//이름과 번호를 배열에 저장
+   		}
+
+   		//모든 PhoneInfo 출력
+   		public void printAllPhoneInfo() {
+
+   		}
+
+   		//번호에 해당하는 이름과 번호 출력
+    	public void printPhoneInfo(int index) {
+
+   		}
+
+		 */
+
+	}
+
+}

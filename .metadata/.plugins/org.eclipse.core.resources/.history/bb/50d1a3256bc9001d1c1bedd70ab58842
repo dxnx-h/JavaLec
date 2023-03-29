@@ -1,0 +1,49 @@
+package chap00_homework._20220023._Middle;
+
+public class _1st3rd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+    1. 크기가 30인 StringBuffer에 "hello"라는 문자열이 담겨있다.
+    비어있는 바이트의 공간을 b, i, t가 반복되어 들어가도록 모두 채우세요.
+		 */
+		
+		StringBuffer sb = new StringBuffer("hello");
+		sb.setLength(30);
+	
+		//Sting Pattern을 써야할듯. 근데 반복글자는 char로 채울 수가 없으니 
+		// 공백을 제거하고 넣자!!!!!!!!!!!!!!
+		/*
+ 		StringBuffer sb = new StringBuffer(arr[0]);
+		System.out.println(sb.append(arr[1])
+				             .append(arr[2]));
+		 */
+		String str = sb.toString();
+		String noSpacestr = str.trim();
+		System.out.println(noSpacestr);
+		
+		System.out.println(sb.append("[bit]*"));
+		
+		
+		/*
+		for(int i = 0; i < 30; i++) {
+			if(sb.charAt(i) == 0) {
+				sb.setCharAt(i,'');
+			}
+			
+			System.out.println();
+		}
+		
+		/*
+    3. 처음에 은행에 맡긴 돈은 10000원입니다.
+    금리는 연 10%며 복리이자로 계산했을 때을 때 10년후 얼마가 될까요?
+			 */
+	}
+
+	private static char[] trim(String str) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

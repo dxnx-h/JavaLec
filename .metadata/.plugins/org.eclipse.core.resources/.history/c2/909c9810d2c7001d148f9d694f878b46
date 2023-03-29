@@ -1,0 +1,19 @@
+package chap00_homework._20230321_Mid.clazz;
+
+public class homeDiv implements homeCalc {
+
+	@Override
+	public void calculator(int a, int b) {
+		// TODO Auto-generated method stub
+		homeCalc calcDiv = new homeCalc() {
+			
+			@Override
+			public void calculator(int a, int b) {
+				System.out.println("나눈 값은 " + (a / b));
+			}
+			
+		};
+		calcDiv.calculator(10, 20);
+	}
+
+}

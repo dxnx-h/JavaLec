@@ -1,0 +1,9 @@
+package chap11_interface;
+
+public interface building {
+	String price = "expensive"; 
+	//price 바로 상수화되어버림. 값을 지정 안하면 에러가 남
+	
+	
+
+}

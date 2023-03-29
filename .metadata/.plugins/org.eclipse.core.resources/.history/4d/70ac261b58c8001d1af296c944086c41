@@ -1,0 +1,16 @@
+package chap13.objectarry.clazz2;
+
+public class ILectureArray {
+
+	public static void main(String[] args) {
+
+		private String subject;
+		private int studentCnt;
+		private int lectureTime;
+		
+
+		}
+		
+	}
+
+}

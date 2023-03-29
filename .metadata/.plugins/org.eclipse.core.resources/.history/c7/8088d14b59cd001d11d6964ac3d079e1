@@ -1,0 +1,22 @@
+package SStudy;
+
+public class _연습공간 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 0;
+		
+		for(int j = 0; j <= 1000; j++) {
+			if(j % 13 ==0 && j % 23 ==0)
+				num += j;  //num = num + j;
+			
+				if(num > 500) {
+					break;
+					
+
+				}	
+		System.out.println("for문 밖의 j:" + j);
+		}
+	}
+
+}

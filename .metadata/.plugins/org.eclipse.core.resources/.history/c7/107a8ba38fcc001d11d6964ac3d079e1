@@ -1,0 +1,58 @@
+package chap00_homework._20230327;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class _03_basic03 {
+
+	/*
+3. Map<String, Integer>을 하나 생성하여 key는 알파벳(대소문자 구분) 
+value는 해당 알파벳의 유니코드 값을 Integer형태로 저장하세요.
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//1. Map을 생성했다.
+		Map<String, Integer> uniMap = new HashMap<String, Integer>();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("영문자를 입력하세요. (대소문자 구분함.)");
+		String eng = sc.nextLine();
+		
+		System.out.println("====잘나오나확ㅇ니====");
+		System.out.println(eng);
+		
+		
+		
+		String[] arr = new String[];
+		
+//우선 영문자를 입력받아서 유니코드를 도출하고, 
+//while문을 사용해서 영문자가 아닌 유니코드 i<65(A), i>122(z) 면 멈추도록 설정하고
+// 그 사잇값에 대해서 넣으면 될 것 같은데 그걸 어떻ㄷ게????????
+		
+		for(int i = 0; i < 5; i++) {
+			arr[i] = sc.nextLine();
+			}
+		
+
+		/*우선 영어를 유니코드로 변경하는 것부터 알아야 함.
+		 *
+		 * 
+		 */
+		
+		//인덱스 값을 만들어서, 인덱스에 맞추서 땡겨오게
+		
+		
+	
+		
+		//uniMap.put(strArr[i], 암튼영문자로바꾸는무엇(strArr[i]);
+		
+
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package chap00_homework._20230315;
+
+public class _20230315_adv_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 AB + BA = 99 를 만족하는 모든 A와 B의 조합을 구하는 프로그램을 작성하세요.
+		 */
+	}
+
+}

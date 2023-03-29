@@ -1,0 +1,16 @@
+package chap00_homework._20230315;
+
+public class _20230315_middle_0102 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Q1. while문을 이용해서 1부터 10까지 중에 짝수만 출력하세요 (while문내에 조건문을 넣어주면 됨)
+		
+		
+		
+		//Q2.  1000이하의 자연수 중에서 2의 배수이면서 7의 배수인 숫자를 출력하고, 그 출력된 숫자들의 합을 구하기
+
+	}
+
+}

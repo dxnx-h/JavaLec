@@ -1,0 +1,25 @@
+package chap13.objectarry.clazz2;
+
+import chap13.objectarry.clazz.Lecture;
+
+public class English implements ILecture {
+
+	@Override
+	public void proceedLecture() {
+		// TODO Auto-generated method stub
+
+		
+       Lecture[] lecArr = new Lecture[3];
+		
+		//2. 객체배열의 초기화
+		lecArr[0] = new Lecture("자바", 30, 50);
+		lecArr[1] = new Lecture("c언어", 29, 45);
+		lecArr[2] = new Lecture("파이썬", 45, 60);
+		
+		//3. 객체배열의 사용
+		for(int i = 0; i <lecArr.length; i++) {
+			lecArr[i].proceedLecture();
+	}
+
+	
+}

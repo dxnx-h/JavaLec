@@ -1,0 +1,19 @@
+package chap10_abstraction.academy;
+
+public abstract class nowAcademy {
+	//학원 추상클래스: 반 개수, 학생 수, 선생 수, 과목 수
+	public int group;
+	public int student;
+	public int teacher;
+	public int lastSubject = 1;
+	
+	//추상메소드: 가르치다, 숙제풀다, 쉬다, 출석하다
+	public abstract void teach();
+	public abstract void homework();
+	public abstract void rest();
+	public void attendance(int subject) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

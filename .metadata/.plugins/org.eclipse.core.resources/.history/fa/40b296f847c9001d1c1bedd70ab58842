@@ -1,0 +1,12 @@
+package chap15_usefulClass;
+
+public class _14_regex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String pattern = "[a-zA-Z0-9]{20}+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}";
+					// [] 조합으로 20까지 자리 @ []조합에서 1개 이상 포함하고 그 다음엔 [a-Z]까지 2자리 이상
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package chap14_exception;
+
+public class _02_generateException {
+
+	public static void main(String[] args) {
+		
+		try {
+			ArrayIndexOutOfBoundsException aie 
+			 = new ArrayIndexOutOfBoundsException("인덱스 초과");
+			
+			throw aie;
+		} catch(NullPointerException ne) {
+			
+		} catch(ArithmeticException ae) {
+			
+		} catch(Exception e) { //마지막에 전체 예외 담을 수 있도록 넣어야.
+			System.out.println(e.getMessage());
+		}
+	}
+
+}

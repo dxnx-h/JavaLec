@@ -1,0 +1,8 @@
+package chap11_interface.device;
+
+public interface TV 
+				extends Display, Speaker{
+	int operate();
+	int operate(int channel);
+
+}

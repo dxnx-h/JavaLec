@@ -1,0 +1,34 @@
+package chpa04_controlstatement;
+
+import java.util.Scanner;
+
+public class _08_duplicatedFor {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 0;
+		
+		Scanner sc = new Scanner(System.in);//ctrl shift o 눌러서 메인함수 추가
+		
+		while(true) {     ///참이면 계속 반복한다
+			System.out.println("2~9까지 입력. 0, 1 종료: "); ///참이면 반복할 것 첫번째. 
+			num = sc.nextInt();           //1. 안내 문구를 출력하고 출력 및 숫자를 입력할 수 있도록 한다
+			
+			if(num == 0 || num == 1) { // 2-1.0이거나 1이면
+				System.out.println("종료되었습니다."); //2-1-1. 이 문구를 출력하고
+				break;                      //2-1-2. while문 종료종료
+			}
+			
+			for(int i = 2; i<= num; i++) {  //2-2. i값은 2로 초기화는데, 이 값은 내가 입력한 수보다 커질 순 없지만, 암튼 커짐. 
+				                            //i=num이 될떄까지 아래 i*j가 반복이라고 생각하면 될둣
+				for(int j = 1; j <=9; j++) { //2-2-1. 그래서, i 가 암튼 2보다 크면, 곱할값인 j는 1-9까지고, 1에서 하나씩 증가함
+					System.out.println(i + "*" + j + "=" + i * j + "\t");
+				}
+				System.out.println();
+			}
+		}
+	}
+
+}
+

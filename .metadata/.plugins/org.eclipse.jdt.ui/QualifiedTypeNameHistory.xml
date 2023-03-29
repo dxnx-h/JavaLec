@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="chap09_polymorphism.product.ElectronicDevice"/>
+    <fullyQualifiedTypeName name="chap09_polymorphism.product.LgTv.LgTv"/>
+    <fullyQualifiedTypeName name="chap09_polymorphism.product.LgTv"/>
+    <fullyQualifiedTypeName name="chap09_polymorphism.product.AirCon"/>
+    <fullyQualifiedTypeName name="chap09_polymorphism.product.Tv"/>
+    <fullyQualifiedTypeName name="chap09_polymorphism.product.SamsungTv"/>
+    <fullyQualifiedTypeName name="chap10_abstraction.academy.computerAcademy"/>
+    <fullyQualifiedTypeName name="chap11_interface.building"/>
+    <fullyQualifiedTypeName name="chap11_interface.multiinherit.MultiflexStadium"/>
+    <fullyQualifiedTypeName name="chap11_interface.buildings.Building"/>
+    <fullyQualifiedTypeName name="chap11_interface.buildings.HighBuilding"/>
+    <fullyQualifiedTypeName name="chap11_interface.multiinherit.SeoulMulitflexStadium"/>
+    <fullyQualifiedTypeName name="chap11_interface.device.TV"/>
+    <fullyQualifiedTypeName name="chap11_interface.device.LgTv"/>
+    <fullyQualifiedTypeName name="chap11_interface.device.ElectronicDevice"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.clazz.NestedClass"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.clazz.NestedClass.Div"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.NestedClass.Sub"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.NestedClass.Add"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.clazz.Car"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.clazz.Calc"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321.Basic.HybridCar3"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.clazz.homeMul"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.clazz.homeAdd"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.clazz.homeDiv"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.clazz.homeSub"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.clazz.homeCalculator"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.clazz.homeCalculator.Add"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.homeCalc.homeAdd"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.homeCal.Add"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.homeCal.Sub"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.homeCal.Mul"/>
+    <fullyQualifiedTypeName name="chap00_homework._20230321_Mid.homeCal.Div"/>
+    <fullyQualifiedTypeName name="chap13.objectarry.clazz.Lecture"/>
+    <fullyQualifiedTypeName name="chap13.objectarry.clazz2.Programming"/>
+    <fullyQualifiedTypeName name="chap13.objectarry.clazz2.English2"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

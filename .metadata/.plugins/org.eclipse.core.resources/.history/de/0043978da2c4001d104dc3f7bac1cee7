@@ -1,0 +1,20 @@
+package chap00_homework._20230315;
+
+public class _20230315_adv_04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 다음과 같이 출력하세요. / for문 사용해서
+    *
+   ***
+  *****
+ *******
+*********
+
+		 */
+		
+		
+	}
+
+}

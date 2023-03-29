@@ -1,0 +1,33 @@
+package SStudy;
+
+public class _연습공간 {
+
+	public static void main(String[] args) {
+		int[][] board = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}};
+		solution(board);
+	}
+
+	public static int solution(int[][] board) {
+		int answer = 0;
+
+		int safeCnt = 0;
+		int[][] bo = new int[100][100]; // 아파트 도면 설계(최대공간은? 100*100)
+
+		// i가 1일때 j는 0부터 i만큼 매칭되어야 함
+		// i가 2일때도 j는 0부터 i만큼 매칭되어야 함 => 우선 이걸 만들어야하는뎅
+
+		for (int i = 0; i < 100; i++) { // 몇 층을 만들건지
+			for (int j = 0; j <= i; j++) { // 층엔 방이 몇개 있는지.
+				// 이제 아파트는 다 지음.
+				// 방에 1이 있나없나 확인하고 안전지대 구해야?
+				if (bo[i][j] == 0) { // 겹치는거 ㄴ상관
+					safeCnt++;
+				}
+				System.out.println(safeCnt);
+			}
+
+		} //큰for괄호
+		return answer;
+	}
+
+}

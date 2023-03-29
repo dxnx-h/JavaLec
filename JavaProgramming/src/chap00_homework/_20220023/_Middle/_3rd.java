@@ -1,0 +1,33 @@
+package chap00_homework._20220023._Middle;
+
+import java.math.BigInteger;
+
+public class _3rd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		3. 처음에 은행에 맡긴 돈은 10000원입니다.
+	    금리는 연 10%며 복리이자로 계산했을 때을 때 10년후 얼마가 될까요?
+		 */
+		BigInteger first = new BigInteger("10000");
+		
+		
+		BigInteger n = BigInteger.TEN;
+
+		
+		for(int i = 1; i <= 10 ; i++) {
+			if(i <= 10) {
+				first = (first * n) * i;
+				inCnt++;
+			}
+			System.out.println(inCnt);
+		}
+			
+			
+
+		
+	}
+}
+	
+

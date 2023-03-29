@@ -1,0 +1,19 @@
+package chap00_homework._20230322.Basic;
+
+import java.util.Scanner;
+
+public class _2nd {
+/*
+ 2. 사용자가 입력한 문자열에서 가, 바의 개수를 새서 출력하세요.
+   0개면 '가, 바가 존재하지 않습니다.'라고 출력.
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("가&바 개수를 셀 문자열을 입력해주세요: ");
+		String str = sc.nextLine();
+	
+	//replace		
+	}
+}
+

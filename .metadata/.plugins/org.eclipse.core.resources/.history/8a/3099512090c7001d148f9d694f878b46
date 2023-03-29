@@ -1,0 +1,14 @@
+package chap10_abstraction.academy;
+
+import chap09_polymorphism.product.ElectronicDevice;
+import chap09_polymorphism.product.Tv;
+
+public class use {
+
+	public static void main(String[] args) {
+		nowAcademy ad = new englishAcademy();
+
+		ad.teach();
+	}
+
+}

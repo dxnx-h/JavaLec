@@ -1,0 +1,17 @@
+package chap00_homework._20220023._Basic;
+
+public class _2nd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		   /*
+	2. 크기가 30인 StringBuffer에 "hello"라는 문자열이 담겨있다.
+    비어있는 바이트의 공간을 a로 모두 채우시오.
+    
+    /void setLength(int 새로운문자열의길이) : 
+    : 문자열의 길이를 매개변수로 받은 값으로 변경해줌. 
+    현재 문자열의 길이보다 커지면 비어있는 곳은 빈 공간으로 채워주고, 현재 문자열 길이보다 작아지면 남는 문자열은 삭제된다. 
+	    */
+	}
+
+}

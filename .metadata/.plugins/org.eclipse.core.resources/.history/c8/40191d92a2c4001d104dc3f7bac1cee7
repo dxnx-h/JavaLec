@@ -1,0 +1,12 @@
+package chap00_homework._20230316;
+
+public class _20230316_basic_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* Q3. int 배열로 10개의 공간을 생성하라.
+  			1 ~ 10까지의 임의의 수를 저장하고, 홀수만 골라서 출력하라 		 */
+	
+	}
+
+}

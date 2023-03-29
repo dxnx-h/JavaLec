@@ -1,0 +1,21 @@
+package chap13.objectarry.clazz2;
+
+public class subjectTime {
+
+	public static void main(String[] args) {
+
+		private String subject;
+		private int studentCnt;
+		private int lectureTime;
+		
+		public subjectTime(String subject, int studentCnt, int lectureTime) { //생성자
+			this.subject = subject;
+			this.studentCnt = studentCnt;
+			this.lectureTime = lectureTime;
+		
+
+		}
+		
+	}
+
+}

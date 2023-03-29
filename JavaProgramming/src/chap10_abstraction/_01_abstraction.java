@@ -1,0 +1,22 @@
+package chap10_abstraction;
+
+import chap10_abstraction.academy.computerAcademy;
+import chap10_abstraction.academy.englishAcademy;
+import chap10_abstraction.academy.nowAcademy;
+
+public class _01_abstraction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//nowAcademy ad = new nowAcademy() 안댐. 추상클래스는 인스턴스 불가
+		nowAcademy ad = new englishAcademy(1, 2, 3); //상속받은 자식클래스만 가능
+		
+		ad.teach();
+		
+		ad.attendance(5); 
+		
+		ad = new computerAcademy();
+		
+	}
+
+}

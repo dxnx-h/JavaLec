@@ -1,0 +1,6 @@
+package chap13.objectarry.clazz2;
+
+public interface ILecture {
+	//상수는 값을 못바꾸느 여기엔 int 지정 X
+	void proceedLecture();
+}

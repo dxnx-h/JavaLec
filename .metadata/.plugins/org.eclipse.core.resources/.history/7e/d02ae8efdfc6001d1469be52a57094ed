@@ -1,0 +1,21 @@
+package chap08_static.clazz;
+
+public class _01_useOfStatic {
+
+	public static void main(String[] args) {
+		//(car에 이어서)3.클래스 변수와 메소드의 사용
+		//             객체 생성 없이 바로 사용가능
+		
+		Car.grade = "A";
+		Car.printCurrentGrade();
+		
+		//인스턴스 변수와 인스턴스 메소드는 객체가 생성됐을때만 사용 가능
+		Car c = new Car();
+		c.company = "현대";
+		c.model = "제네시스";
+		c.carInfo();
+		
+
+	}
+
+}

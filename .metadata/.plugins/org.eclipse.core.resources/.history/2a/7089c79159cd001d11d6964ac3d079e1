@@ -1,0 +1,22 @@
+package SStudy;
+
+public class _연습공간 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     String busNum1 = "1234";
+     String busNum2 = "상암08";
+     
+     int leftTime1 = 3;
+     int leftTime2 = 5;
+		
+     double km1 = 1.5;
+     double km2 = 0.8;
+    		 
+    		 
+    System.out.println(busNum1 + "번 버스");
+    System.out.println("약 " + leftTime1 + " 분 후 도착 예정");
+	System.out.println("남은 거리 " +km1);
+	}
+
+}

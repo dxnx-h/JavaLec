@@ -1,0 +1,18 @@
+package SStudy;
+
+public class _연습공간 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 115;
+		
+		String kids = (i >= 120) ? "키가 " + i + "cm 이므로 탑승 가능합니다." : "키가 " + i + "cm 이므로 탑승 불가능합니다.";
+		
+	
+		
+		
+	
+	
+	}
+
+}

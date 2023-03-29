@@ -1,0 +1,26 @@
+package chap16_collectionFramework;
+
+import java.util.Scanner;
+
+public class _04_arrayListEx02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//사용자가 문자열 입력
+		//길이를 10 만큼씩 잘라서 ArrayList에 저장
+		//남은 문자열의 길이가 10보다 작으면 남은 만큼만 ArrayList에 저장
+		//ex) abcdefghijklmnop => [abcdefghij, klmnop]
+		
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		
+		
+		System.out.println(str);
+		//잘라서 Array에 저장
+		
+		//for문에 i를 10씩 증가시킬수 있는 방법??
+		
+		
+	}
+
+}

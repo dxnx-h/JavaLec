@@ -1,0 +1,31 @@
+package chap10_abstraction.product;
+
+public abstract class Tv {  //사이에 abstract를 넣어 추상화 클래스 선언
+	public int lastChannel = 1;
+	
+	//전원을 켜다
+	//추상메소드 -> 사이에 abstract 넣고 ;으로 종료
+	//선언부만 정의하고 구현부는 자식클래스에서 정의
+	public abstract void powerOn();
+
+	
+	public abstract void powerOff();
+	
+	public abstract void operate(int channel);
+	
+	//삼성티비, 엘지티비에서 사용할 게 아니라 일반 메소드로 남겨놓을거임
+	public void moveTo(int channel) {
+		System.out.println(channel + "로 이동합니다.");
+	}
+	
+	public void channelUp() {
+		lastChannel++;
+	}
+	
+	public void channelDown() {
+		lastChannel--;
+	}
+	
+	
+	
+}

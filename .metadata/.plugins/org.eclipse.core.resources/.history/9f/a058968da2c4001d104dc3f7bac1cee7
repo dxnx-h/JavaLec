@@ -1,0 +1,17 @@
+package chap00_homework._20230315;
+
+public class _20230315_middle_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*Q3. 구구단을 이렇게 출력하세요
+ 			2x1=2 3x1=3...9x1=9
+ 			2x2=4
+ 			...
+ 			2x9=18........9x9=81
+		 */
+
+	}
+
+}

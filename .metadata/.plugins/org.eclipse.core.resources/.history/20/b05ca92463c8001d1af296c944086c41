@@ -1,0 +1,38 @@
+package chap14_exception;
+
+public class _02_generateException {
+
+	public static void main(String[] args) {
+		
+		try {
+			/*ArrayIndexOutOfBoundsException aie 
+			 = new ArrayIndexOutOfBoundsException("인덱스 초과");
+			
+			throw aie; */
+			//1. NullPointerException
+			/*NullPointerException ne
+			      = NullPointerException("null입니다");
+			throw ne; */
+			
+			//2. ArithmeticExeption
+			ArithmeticException ae
+			            = new ArithmeticException("분모기 0일 수 없습니다.");
+			throw ae;
+		} catch(NullPointerException ne) {
+			System.out.println(ne.getMessage());
+		} catch(ArithmeticException ae) {
+			System.out.println(ae.getMessage());		
+		//마지막 catch문은 위에서 선언한 catch문을 다 통과한 예외들을 
+		//처리할 수 있게 모든 예외를 담을 수 있는 
+	    //예외의 최상위 클래인 exception으로 처리해야 함.
+		} catch(Exception e) { 
+			System.out.println(e.getMessage());
+		}
+	}
+
+	private static NullPointerException NullPointerException(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

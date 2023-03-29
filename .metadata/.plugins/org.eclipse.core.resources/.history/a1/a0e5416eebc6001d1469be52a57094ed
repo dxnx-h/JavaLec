@@ -1,0 +1,19 @@
+package chap09_polymorphism.product;
+
+public class LgTv {
+	public void powerOn() {
+		System.out.println("제조사: Samsung");
+		super.powerOn();
+	}
+	
+	public void pewerOff() {
+		System.out.println("제조사: Samsung");
+		super.pewerOff();
+	}
+	
+	public void operate(int channel) {
+		super.operate(channel);
+	}
+
+}
+

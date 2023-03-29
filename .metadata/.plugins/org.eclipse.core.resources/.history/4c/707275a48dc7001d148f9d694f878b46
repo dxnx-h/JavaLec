@@ -1,0 +1,15 @@
+package chap10_abstraction.academy;
+
+	public class englishAcademy extends nowAcademy {
+	
+		public void teach() {
+			System.out.println(teacher + "명이" 
+							+ group +"개 반을 가르친다.");
+		}
+
+		public void homework() {
+			System.out.println(teacher + "명이" 
+							+ student +"명을 가르친다.");
+		}
+
+}

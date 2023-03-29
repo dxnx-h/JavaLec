@@ -1,0 +1,19 @@
+package chap00_homework._20230321_Mid.clazz;
+
+public class homeAdd implements homeCalc {
+
+	@Override
+	public void calculator(int a, int b) {
+		// TODO Auto-generated method stub
+		homeCalc calcAdd = new homeCalc() {
+			
+			@Override
+			public void calculator(int a, int b) {
+				System.out.println("더한 값은 " + (a + b));
+			}
+		};
+		
+		calcAdd.calculator(3, 5);
+	}
+
+}

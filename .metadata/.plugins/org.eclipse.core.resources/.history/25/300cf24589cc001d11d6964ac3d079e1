@@ -1,0 +1,26 @@
+package chap00_homework._20230327;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class _03_basic03 {
+
+	/*
+3. Map<String, Integer>을 하나 생성하여 key는 알파벳(대소문자 구분) 
+value는 해당 알파벳의 유니코드 값을 Integer형태로 저장하세요.
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Map<String, Integer> map = new HashMap<String, Integer>();
+		
+		/*
+		 * 
+		 */
+		System.out.println(byte('a'));
+		
+		
+		
+	}
+
+}

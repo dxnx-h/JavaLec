@@ -1,0 +1,27 @@
+package chap13.objectarry.clazz2;
+
+
+
+public class English2 implements ILecture1 {
+	
+	private String subject;
+	private int studentCnt;
+	private int lectureTime;
+	
+	public English2(String subject, int studentCnt, int lectureTime) { //생성자
+		this.subject = subject;
+		this.studentCnt = studentCnt;
+		this.lectureTime = lectureTime;
+		
+	@Override
+	public void proceedLecture() {
+		// TODO Auto-generated method stub
+
+			System.out.println("영어수업을 100명의 학생이 듣습니다."
+					  + " 수업시간은 50분입니다."); 
+			
+	
+	}
+
+	
+}

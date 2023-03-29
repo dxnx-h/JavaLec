@@ -1,0 +1,14 @@
+package chap11_interface.buildings;
+
+public interface Building {
+	//변수는 자동으로 상수화됨
+	String price = "expensive"; 
+	//price 바로 상수화되어버림. 값을 지정 안하면 에러가 남
+	int floors = 120;
+	
+	//메소드는 자동으로 추상화됨
+	void build(); //선언부 자동으로 추상
+	void turnOnAircon();
+	int getParkingPrice();
+	int getParkingPrice(int time);
+}

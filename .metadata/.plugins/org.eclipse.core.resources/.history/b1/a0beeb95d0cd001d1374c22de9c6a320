@@ -1,0 +1,23 @@
+package chap18_enum;
+
+import chap18_enum.enums.DefaultMonth;
+
+public class _02_withDefaultEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//DefaltMonth형의 변수 선언
+		DefaultMonth jan = DefaultMonth.JAN;
+		//^ DefaltMonth.JAN을 값으로 받는 enum(열거형)객체 생성 완료!
+		
+		System.out.println(jan);
+		System.out.println(jan.ordinal()); //0 출력
+		//^enum은 0부터 인덱스가 매겨지고, 1월은 첫번째이므로 0 출력
+		System.out.println(DefaultMonth.AUG);
+		
+		
+		
+		
+	}
+
+}

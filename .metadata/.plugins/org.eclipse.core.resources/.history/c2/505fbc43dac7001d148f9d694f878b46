@@ -1,0 +1,40 @@
+package chap00_homework._20230321_Mid;
+
+class homeCalc {
+	class homeAdd {
+		int a;
+		int b;
+		
+		int result;
+		
+		int add() {
+			result = a + b;
+			return result;
+		}
+	}
+	
+	static class homeSub {
+		static int a;
+		static int b;
+		
+		static int subResult;
+		static int homeSub() {
+			subResult = a - b;
+			return subResult;
+		}
+	}
+}
+
+public class instanceHome2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		homeCalc hoc = new homeCalc();
+		
+		homeCalc.homeAdd homeadd = hoc.new homeAdd();
+		homeadd.a = 3;
+		homeadd.b = 4;
+		System.out.println(homeadd.homeadd());
+	}
+
+}

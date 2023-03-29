@@ -1,0 +1,17 @@
+package chap00_homework._20230321_Mid.clazz;
+
+public class homeMul implements homeCalc {
+
+	@Override
+	public void calculator(int a, int b) {
+		// TODO Auto-generated method stub
+		homeCalc calcMul = new homeCalc() {
+			
+			@Override
+			public void calculator(int a, int b) {
+				System.out.println("결과는 " + (a * b));
+			}
+		}
+	}
+
+}

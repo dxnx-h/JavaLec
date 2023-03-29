@@ -1,0 +1,29 @@
+package chap15_usefulClass;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "가비트나네이버다라마바클라우드";
+		
+		String bstr = "비트";
+		String nstr = "네이버";
+		String cstr = "클라우드";
+		
+		System.out.println(cstr.length());
+		
+		int bindex = str.indexOf("비트"); //1
+		int nindex = str.indexOf("네이버"); //4
+		int cindex = str.indexOf("클라우드"); //11
+		
+		
+		System.out.println(str.indexOf("비트"));
+		System.out.println(str.indexOf("네이버"));
+		System.out.println(str.indexOf("클라우드"));
+		
+
+		
+	}
+
+
+}

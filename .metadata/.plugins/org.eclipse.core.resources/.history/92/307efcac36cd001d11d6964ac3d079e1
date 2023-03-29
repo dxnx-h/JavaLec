@@ -1,0 +1,28 @@
+package chap17_generic;
+
+import java.util.List;
+
+public class _04_genericEx01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	//Number를 상속받는 T
+	//리턴타입 List<T> getEven(List<T> list)
+	//짝수숫자만 받는 리스틀를 getEven으로 만들어서 리턴 
+	
+	public static <T extends Number> int aList(List<T> tList) {
+		int even = (int)((Object) tList).getEven();
+		
+		for(int i = 0; i < tList.size(); i++) {
+			if() {
+		}
+	}
+	
+	
+	
+	
+
+}

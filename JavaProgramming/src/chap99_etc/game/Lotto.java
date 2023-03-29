@@ -1,0 +1,68 @@
+package chap99_etc.game;
+
+import java.util.Scanner;
+
+public class Lotto {
+	//1~45가지 7개의 난수(중복제거) (7번쨰는 보너스)	
+	//사용자가 1~45까지 6개 숫자 선택(중복제거)
+	
+	//1등 : 보너스번호를 제외 6개 일치/ 2등: 보너스 번호와 5개 번호가 일치
+	//3등 : 보너스 5개 일치/4등 4개 일치/3등 3개 일치/그 외 꽝
+	
+	//몇 등인지 출력
+	
+	//1. 변수랑 배열부터???
+	//1) 몇 개 맞췄는지 세어줄 변수, 컴퓨터/사용자 랜덤값 담아줄 배열
+	private int lottoCnt = 0;
+	
+	int [] lotto = new int[7];
+	int [] user = new int[6];
+	
+	Scanner sc = new Scanner(System.in);
+	
+	//2. 컴퓨터 랜덤 값 7개 생성
+	public void generateRandom() {
+		for(int i = 0; i <lotto.length; i++) {
+			lotto[i] = (int)((Math.random() * 44) + 1);
+			// Math.radom()은 0~1이고 로또는 1~45번까지니까. 
+			
+			//이레 아래서 중복체크. true면 중복이고, false면 중복X
+			if(i > 0) {
+				if(checkDuplicate(lotto, i)) {
+					i--;
+					continue;
+				}
+			}
+		}
+	}
+	//중복값 체크
+	public boolean checkDuplicate(int[] arr, int num) {
+		boolean isDuplicated = false;
+		
+		for(int i = 0; i < num; i++)
+		
+		
+	
+			
+			
+			
+			
+			
+			
+			
+			//로또 자동 배열
+			System.out.println(lotto[0] + ", " 
+							+ lotto[1] + ", "
+							+ lotto[2] + ", "
+							+ lotto[3] + ", "
+							+ lotto[4] + ", "
+							+ lotto[5] + ", " + lotto[6]);
+			
+			while(true) {
+				
+			}
+		}
+
+}
+
+}

@@ -1,0 +1,13 @@
+package chap10_abstraction.academy;
+
+
+public class use {
+
+	public static void main(String[] args) {
+		nowAcademy ad = new englishAcademy();
+		
+		ad.teach();
+		
+	
+	}
+}

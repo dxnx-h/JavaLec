@@ -1,0 +1,30 @@
+
+public class 지뢰찾기 {
+//board 는 n*n, n은 1부터 100까지
+//1과 0만 존재, 가로세로대각선은 위험지역
+//안전지역(answer) 리턴
+	
+	public int solution(int[][] board) {
+	        int answer = 0;
+	        return answer;
+	        
+	        
+	        int dangerousCnt = 0;
+	        int safeCnt = 0;
+	        int[][] board = new int[100][100];
+	        
+	        for(int i = 0; i < 100; i++) { //몇 층을 만들건지
+	           for(int j = 0; j < 100; j++) { //층엔 방이 몇개 있는지
+	        	   //어????????????
+	        	   if(board[i][j] == [i, 0] 
+	        	     || board[i][j] == [0, 0] )  {
+	        		   
+	        	
+	        }
+	        
+	        
+	    }
+	}
+	}
+
+}

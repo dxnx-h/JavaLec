@@ -1,0 +1,62 @@
+package chap00_homework._20230321_Mid;
+
+
+class homeCal { 
+	public int a;
+	public int b;
+
+	
+	class Add { 
+		int addResult;
+		int add() {
+			addResult = a + b;
+			return addResult;
+		}
+	}
+	
+	class Sub { 
+		int subResult;
+		int sub() {
+			subResult = a - b;
+			return subResult;
+		}
+	}
+	
+	class Mul { 
+		int mulResult;
+		int mul() {
+			mulResult = a - b;
+			return mulResult;
+		}
+	}
+	
+	class Div { 
+		
+
+	
+		public void div(int a, int b) {
+			System.out.println("뺸 값은 " + (a - b));
+
+			
+		}
+	}
+}
+
+public class instanceHome2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		homeCal hcal = new homeCal();
+		
+		homeCal.Add add = hcal.new Add();
+		homeCal.Sub sub = hcal.new Sub();
+		homeCal.Mul mul = hcal.new Mul();
+		homeCal.Div div = hcal.new Div();
+		
+		div.div(2, 3);
+		
+
+
+	}
+
+}
